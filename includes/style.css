@@ -1,0 +1,170 @@
+* {margin:0; padding:0;}
+
+header, nav, main, section, footer {display:block;}
+
+header, #skills ul {margin-left: 251px;}
+
+body {width:1600px;}
+
+h2, #cover, #about {text-align: center;}
+
+a {text-decoration: none;}
+
+h2 {color: #2d3950;
+	font-family: 'Calibri', sans-serif;
+}
+	
+header {height: 100px;
+		width: 100%;
+}
+
+.logo{
+		text-decoration: none;
+		display: inline-block;
+		width: 197px;
+		height: 40px;
+		padding: 30px 0px 30px 0px;
+		background: url("../images/logo-img.png") no-repeat left center;
+}
+
+.logo h1{
+		padding-left: 50px;
+		height: 40px;
+		font-family: 'Calibri';
+		font-size: 30px;
+		position: relative;
+		color: #2d3950;
+}
+
+nav {	font-family: 'Calibri';
+		font-weight: bold;
+		font-size: 30px;
+		margin-left: 115px;
+		display: inline-block;
+		padding: 30px 0px 30px 0px;
+}
+
+nav span {color: #4b4b4b;}
+
+nav a { color: #4b4b4b;
+		padding: 0px 18px 0px 18px;
+}
+
+nav a:hover {color: #727474;}
+
+#cover{	background-image: url(../images/cover-img.jpg);
+		background-repeat: no-repeat;
+		height: 800px;
+		width: 1600px;
+		color: #ffffff; 
+		font-family: 'Verdana' , sans-serif;
+}
+
+#cover h1{	padding-top: 178px;
+			padding-bottom:10px;
+			font-size:120px;
+			background: url(../images/line.png) no-repeat bottom center;			
+}
+		
+#cover span{font-size: 20px;
+			display: block;
+			margin-top:34px;
+			margin-bottom: 60px;
+}
+			
+#cover a{	padding:16px;
+			border: solid 1px;
+			border-color: #12a3e0;
+			border-radius: 2px;
+			color: #ffffff;		
+}
+
+#cover a:hover {background-color: #12a3e0;}
+
+#arrow {background: url(../images/arrow.png) no-repeat bottom;
+		width: 22px;
+		height:14px;
+		padding-top: 175px;}	
+		
+#about, footer {background-color: #f6f9f9;}
+
+#about {height: 340px;}
+	
+#about h2 {	font-size: 40px;
+			padding-top: 84px;
+}
+
+#about p {	padding-top: 36px;
+			padding-bottom: 112px;
+			font-size: 20px;
+			color: #999999;
+			font-family: 'Verdana', sans-serif;
+}
+
+#skills {	padding-bottom:102px;
+}
+
+#skills h2 {font-size: 41px;
+			padding-bottom: 51px;
+			padding-top: 76px;
+}
+
+#skills ul {padding-left: 104px;
+			list-style-type:none;
+}			
+			
+#skills > ul > li 
+{			font-size: 30px;
+			font-family: 'Courier New' ;
+			color: #2d3950;
+			padding:10px 10px 10px 130px;
+			width: 100px;
+			height: 100px;
+			line-height: 100px; 
+}
+
+.cs {background: url(../images/cs.png) no-repeat left center;}
+
+.java {background: url(../images/java.png) no-repeat left center;}
+
+.cpp {background: url(../images/cpp.png) no-repeat left center;}
+
+footer {	height: 90px; 
+			padding-left: 251px;
+}
+			
+footer a { 	display: inline-block;
+			vertical-align: middle;
+			font-family: 'Calibri', sans-serif;
+			font-size: 15px;
+			color: #999999;
+			padding: 25px 0px 25px 0px;
+}
+						
+.facebook {	background: url(../images/fb.png) no-repeat center;
+			width: 40px;
+			height: 40px; 
+}
+
+.facebook:hover {background-image: url(../images/fbhover.png);}
+
+.instagram {background: url(../images/instagram.png) no-repeat center;
+			width: 40px;
+			height: 40px; 
+}
+			
+.instagram:hover {background-image: url(../images/instagramhover.jpg);}
+
+.mail {		background: url(../images/gmail.png) no-repeat center;
+			width: 40px;
+			height: 40px; 
+}
+		
+.mail:hover {background-image: url(../images/gmailhover.png);}
+
+.linkedin {	background: url(../images/linkedin.png) no-repeat center;
+			width: 40px;
+			height: 40px; 
+}
+		
+.linkedin:hover {background-image: url(../images/linkedinhover.png);}
